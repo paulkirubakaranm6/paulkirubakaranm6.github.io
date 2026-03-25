@@ -71,4 +71,4 @@ This site is deployed using [GitHub Pages](https://pages.github.com/), a free an
 
 ---
 
-> Designed & Developed with 💙 by **Aditya Bhatt**
+> Designed & Developed with 💙 by **Paul Kirubakaran M**
