@@ -62,7 +62,7 @@ This site is deployed using [GitHub Pages](https://pages.github.com/), a free an
 
 ## 📧 Connect With Me
 
-- 🔗 [Linktree](https://linktr.ee/AdityaBhatt3010)
+- 🔗 [Linktree](https://linktr.ee/paulkirubakaranm6)
 - 💼 [LinkedIn](https://www.linkedin.com/in/aditya-bhatt-b61868250/)
 - 🐙 [GitHub](https://github.com/adityabhatt3010)
 - 📝 [Medium](https://medium.com/@info.adityabhatt3010)
