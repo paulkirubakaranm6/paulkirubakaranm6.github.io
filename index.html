@@ -276,6 +276,9 @@ section{padding:110px 0;position:relative;z-index:2}
 .cert-ico.iso{background:rgba(0,122,255,.1);border:1px solid rgba(0,122,255,.25);color:#007aff}
 .cert-ico.rtl{background:rgba(255,59,48,.1);border:1px solid rgba(255,59,48,.25);color:#ff3b30}
 .cert-ico.cisco{background:rgba(0,188,212,.1);border:1px solid rgba(0,188,212,.25);color:#00bcd4}
+.cert-ico.thm{background:rgba(165,84,255,.12);border:1px solid rgba(165,84,255,.3);color:#a554ff}
+.cert-link{display:inline-flex;align-items:center;gap:5px;font-family:var(--mono);font-size:.65rem;color:var(--cyan);text-decoration:none;margin-top:6px;opacity:.8;transition:opacity .2s,color .2s}
+.cert-link:hover{opacity:1;color:var(--green)}
 .cert-card:hover .cert-ico{box-shadow:0 0 16px rgba(0,212,255,.2)}
 .cert-body h3{font-family:var(--ubuntu);font-size:.9rem;font-weight:500;color:var(--txt);margin-bottom:4px;line-height:1.4}
 .cert-body .issuer{font-family:var(--mono);font-size:.68rem;color:var(--cyan);margin-bottom:5px;display:flex;align-items:center;gap:4px}
@@ -398,7 +401,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:44px 0 2
       <!-- Left: Text -->
       <div>
         <div class="status-bar"><div class="sl"></div><div class="pulse-dot"></div><span>ONLINE // SOC ANALYST // DUBAI UAE</span></div>
-        <h1 class="hero-name">PAUL<br><span class="stroke" data-t="KIRUBAKARAN M">KIRUBAKARAN M</span><br><span style="font-size:55%;color:var(--txt2);letter-spacing:6px;-webkit-text-stroke:0"></span></h1>
+        <h1 class="hero-name">PAUL<br><span class="stroke" data-t="KIRUBAKARAN">KIRUBAKARAN</span><br><span style="font-size:55%;color:var(--txt2);letter-spacing:6px;-webkit-text-stroke:0">M.</span></h1>
         <div class="tw-row"><span id="tw"></span><span class="tw-cursor"></span></div>
         <p class="hero-bio">Cybersecurity professional specializing in SOC operations, threat intelligence &amp; incident response. Managing Microsoft 365 security across 300+ endpoints with Zero Trust and identity lifecycle expertise in Dubai, UAE.</p>
         <div class="cta-row">
@@ -529,7 +532,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:44px 0 2
             <div class="ci-ico mail">
               <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
             </div>
-            <div><span class="ci-lbl">Email</span><span class="ci-txt">paulkirubakaranm6@gmail.com</span></div>
+            <div><span class="ci-lbl">Email</span><span class="ci-txt"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="265647534a4d4f545344474d475447484b1066414b474f4a0845494b">[email&#160;protected]</a></span></div>
           </div>
           <!-- Phone icon -->
           <div class="ci">
@@ -684,6 +687,18 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:44px 0 2
           <span class="cert-val">Valid from Sep 2025 · Does not expire</span>
         </div>
       </div>
+      <div class="cert-card rv d5">
+        <div class="cert-ico thm">
+          <!-- TryHackMe flag/shield icon -->
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <div class="cert-body">
+          <h3>Pre Security Certificate</h3>
+          <div class="issuer">TryHackMe</div>
+          <span class="cert-val">Valid: Mar 2026 – Mar 2029</span><br>
+          <a href="https://tryhackme.com/certificate/THM-FCROWX6CLF" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -702,7 +717,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:44px 0 2
           <div class="cc-ico gmail">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
           </div>
-          <div><h3>Gmail</h3><p>paulkirubakaranm6@gmail.com</p></div>
+          <div><h3>Gmail</h3><p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="44342531282f2d363126252f2536252a2972042329252d286a272b29">[email&#160;protected]</a></p></div>
         </div>
         <!-- Phone -->
         <div class="cc">
@@ -765,7 +780,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:44px 0 2
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // ── CURSOR ──
 const cur=document.getElementById('cur'),ring=document.getElementById('cur-ring');
 let mx=0,my=0,rx=0,ry=0;
@@ -817,7 +832,7 @@ iPts();
 })();
 
 // ── TYPEWRITER ──
-const phrases=['SOC Analyst','Incident Responder','Threat Hunter','Cloud Security Pro','Zero Trust ','Identity & Access Pro'];
+const phrases=['SOC Analyst','Incident Responder','Threat Hunter','Cloud Security Pro','Zero Trust Advocate','Identity & Access Pro'];
 let pi=0,ci=0,del=false,twEl=document.getElementById('tw');
 function tl(){
   const ph=phrases[pi];
@@ -861,12 +876,4 @@ nl.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nl.classList.
 // ── FORM ──
 document.getElementById('cform').addEventListener('submit',function(e){
   e.preventDefault();
-  const btn=this.querySelector('button');
-  btn.innerHTML='<i class="fas fa-check"></i>&nbsp; Message Sent!';
-  btn.style.background='linear-gradient(135deg,#00ff88,#00cc55)';
-  btn.style.color='#020810';
-  setTimeout(()=>{btn.innerHTML='<i class="fas fa-paper-plane"></i>&nbsp; Send Message';btn.style.background='';btn.style.color='';this.reset();},3000);
-});
-</script>
-</body>
-</html>
+  const btn=this.que
