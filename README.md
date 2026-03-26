@@ -10,7 +10,7 @@ This website showcases my professional journey, technical skills, certifications
 
 ## 🚀 Live Website
 
-Visit the portfolio: [https://paulkirubakaranm6.github.io](https://paulkirubakaranm6.github.io)
+Visit the portfolio: [https://paulkirubakaranm6.github.io](https://paulkirubakaranm6.github.io/paulkirubakaranm.github.io/)
 
 ---
 
