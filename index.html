@@ -401,7 +401,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:44px 0 2
       <!-- Left: Text -->
       <div>
         <div class="status-bar"><div class="sl"></div><div class="pulse-dot"></div><span>ONLINE // SOC ANALYST // DUBAI UAE</span></div>
-        <h1 class="hero-name">PAUL<br><span class="stroke" data-t="KIRUBAKARAN M">KIRUBAKARAN M</span><br><span style="font-size:55%;color:var(--txt2);letter-spacing:6px;-webkit-text-stroke:0"></span></h1>
+        <h1 class="hero-name">PAUL<br><span class="stroke" data-t="KIRUBAKARAN">KIRUBAKARAN</span><br><span style="font-size:55%;color:var(--txt2);letter-spacing:6px;-webkit-text-stroke:0">M.</span></h1>
         <div class="tw-row"><span id="tw"></span><span class="tw-cursor"></span></div>
         <p class="hero-bio">Cybersecurity professional specializing in SOC operations, threat intelligence &amp; incident response. Managing Microsoft 365 security across 300+ endpoints with Zero Trust and identity lifecycle expertise in Dubai, UAE.</p>
         <div class="cta-row">
@@ -532,7 +532,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:44px 0 2
             <div class="ci-ico mail">
               <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
             </div>
-            <div><span class="ci-lbl">Email</span><span class="ci-txt"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="265647534a4d4f545344474d475447484b1066414b474f4a0845494b">[email&#160;protected]</a></span></div>
+            <div><span class="ci-lbl">Email</span><span class="ci-txt" id="about-email"></span></div>
           </div>
           <!-- Phone icon -->
           <div class="ci">
@@ -717,7 +717,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:44px 0 2
           <div class="cc-ico gmail">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
           </div>
-          <div><h3>Gmail</h3><p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="44342531282f2d363126252f2536252a2972042329252d286a272b29">[email&#160;protected]</a></p></div>
+          <div><h3>Gmail</h3><p><a id="email-link" href="#"></a></p></div>
         </div>
         <!-- Phone -->
         <div class="cc">
@@ -872,6 +872,17 @@ document.querySelectorAll('.counter').forEach(el=>co.observe(el));
 const hb=document.getElementById('hamburger'),nl=document.getElementById('navLinks');
 hb.addEventListener('click',()=>nl.classList.toggle('open'));
 nl.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nl.classList.remove('open')));
+
+// ── EMAIL (bypass Cloudflare obfuscation) ──
+(function(){
+  const u='paulkirubakaranm6';
+  const d='gmail.com';
+  const e=u+'@'+d;
+  const el=document.getElementById('email-link');
+  if(el){el.href='mailto:'+e;el.textContent=e;}
+  const ab=document.getElementById('about-email');
+  if(ab){const a=document.createElement('a');a.href='mailto:'+e;a.textContent=e;a.style.color='inherit';a.style.textDecoration='none';ab.appendChild(a);}
+})();
 
 // ── FORM ──
 document.getElementById('cform').addEventListener('submit',function(e){
